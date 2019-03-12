@@ -1,0 +1,83 @@
+body {
+    width: 1024px;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+main {
+    background: linear-gradient(to top, powderblue, pink)
+}
+
+footer {
+    background-color: powderblue;
+}
+
+footer::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 70%;
+    transform: translate(-50%);
+    border-bottom: 1px solid gainsboro;
+}
+
+h1 {
+    position: absolute;
+    display: inline-block;
+    padding-left: 1em;
+    text-align: left
+}
+
+h2 {
+    padding: .5em 1em;
+    font-size: .750em;
+}
+
+p {
+    display: inline-block;
+    padding-left: 2em;
+    font-size: .625em;
+
+}
+
+p.p-goal {
+    width: 70%;
+    margin-top: 1.5em;
+    padding: 1em;
+    font-size: .625em;
+    text-align: justify;
+    vertical-align: top;
+}
+
+.logo {
+    float: right;
+    margin: .4em .7em;
+    transform: rotate(-30deg);
+}
+
+.main-info {
+    position: relative;
+    padding: 4em 1em 1em;
+}
+
+.ava {
+    display: inline-block;
+    border-radius: 50%; 
+    border: 1px solid white;
+}
+
+.contacts {
+    margin: 0 2em;
+}
+
+.contacts li {
+    display: inline-block;
+    font-size: .5em;
+    
+}
+
+.contacts figcaption {
+    float: right;
+    padding: .125em .5em;
+}
