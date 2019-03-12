@@ -9,15 +9,16 @@
 </head>
 <body>
     <header>
-        <object data="./assets/logo-rs.svg" width="100" height="100" type="image/svg+xml">
-            <img src="./assets/logo-rs.png" width="200" height="200" alt="alt-png-logo">
+        <object class="logo" data="./assets/logo-rs.svg" width="100" height="100" type="image/svg+xml">
+            <img src="./assets/logo-rs.png" width="100" height="100" alt="alt-png-logo">
         </object>
     </header>
     <main>
-        <section>
-            <img src="./assets/ava.jpg" alt="avatar">
+        <section class="main-info">
+            <img class="ava" src="./assets/ava.jpg" alt="avatar" width="200" height="200">
+            
             <h1>Evgenii Mazilov</h1>
-            <p>My goal is try to learn something new on a practice. I think, that the better way to improve my own knowledge and skills — is solving a real issues.</p>
+            <p class="p-goal">My goal is try to learn something new on a practice. I think, that the better way to improve my own knowledge and skills — is solving a real issues.</p>
             <h2>Skills:</h2>
             <p>Basic knowledge of Python, Delphi, HTML, Git, CSS.</p>
             <h2>Education:</h2>
@@ -27,9 +28,23 @@
         </section>
     </main>
     <footer>
-        <ul>
-            <li><a href="http://www.facebook.com/eugenemsoff" target="_blank" rel="noopener noreferrer"><img src="./assets/facebook.png" alt="facebook">http://www.facebook.com/eugenemsoff</a></li>
-            <li><a href="mailto:jon.ka.masloff@gmail.com"><img src="./assets/mail.png" alt="mail">jon.ka.masloff@gmail.com</a></li>
+        <ul class="contacts">
+            <li>
+                <a href="http://www.facebook.com/eugenemsoff" target="_blank" rel="noopener noreferrer">
+                    <figure>
+                        <img src="./assets/facebook.png" alt="facebook">
+                        <figcaption>http://www.facebook.com/eugenemsoff</figcaption>
+                    </figure>
+                </a>
+            </li>
+            <li>
+                    <a href="mailto:jon.ka.masloff@gmail.com">
+                        <figure>
+                            <img src="./assets/mail.png" alt="mail">
+                            <figcaption>jon.ka.masloff@gmail.com</figcaption>
+                        </figure>
+                    </a>
+            </li>
         </ul>
     </footer>
 </body>
