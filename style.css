@@ -63,7 +63,8 @@ p.p-goal {
 
 .ava {
     display: inline-block;
-    /* border-radius: 50%; */
+    border-radius: 50%; 
+    border: 1px solid white;
 }
 
 .contacts {
